@@ -1,3 +1,66 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.navbar {
+  display: flex;
+  background-color: #66ccff;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.navbar h2 {
+  text-align: left;
+  margin-left: 30px;
+  font-family: sans-serif;
+  color: #f2e6d9;
+}
+
+.navbar h3 {
+  text-align: right;
+  margin-left: 1100px;
+  font-family: sans-serif;
+  color: #f2e6d9;
+  text-decoration: none;
+  margin-top: 25px;
+}
+
+.new-article {
+  text-decoration: none;
+  color: #f2e6d9;
+}
+
+li {
+  text-align: center;
+  margin: 0 auto;
+  font-family: sans-serif;
+  color: #66ccff;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+ul p {
+  text-align: center;
+  margin: 0 auto;
+  font-family: sans-serif;
+  color: gray;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+.title-article {
+  text-decoration: none;
+  color: #66ccff;
+}
+
+body {
+  margin: 0;
+}
+
+.delete-article {
+
+}
